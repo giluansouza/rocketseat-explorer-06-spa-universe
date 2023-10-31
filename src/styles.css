@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  padding: 2.5rem 8rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font: 400 1.25rem 'Roboto', sans-serif;
+}
+
+.active {
+  font-weight: bold;
+  color: #FF00FF;
+}
+
+#app {
+  width: 100%;
+  padding: 0 8rem;
+}
+
+.home {
+  background-image: url('./assets/mountains-universe-1.png');
+}
+
+.universe {
+  background-image: url('./assets/mountains-universe-2.png');
+}
+
+.exploration {
+  background-image: url('./assets/mountains-universe-3.png');
+}
+
+h1 {
+  color: #fff;
+  font: 700 3rem 'Roboto', sans-serif;
+}
+
+p {
+  color: #fff;
+  font: 400 1.25rem 'Roboto', sans-serif;
+  margin: 1rem 0 2rem;
+}
+
+button {
+  border: 1px solid #fff;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font: 700 1.25rem 'Roboto', sans-serif;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
